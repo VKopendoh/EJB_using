@@ -20,4 +20,22 @@
         <servlet-name>ConverterServlet</servlet-name>
         <url-pattern>/converter</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>CartServlet</servlet-name>
+        <servlet-class>com.vkopendoh.ejb.web.CartServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CartServlet</servlet-name>
+        <url-pattern>/cart</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CreateCartServlet</servlet-name>
+        <servlet-class>com.vkopendoh.ejb.web.CreateCartServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CreateCartServlet</servlet-name>
+        <url-pattern>/newcart</url-pattern>
+    </servlet-mapping>
+
 </web-app>

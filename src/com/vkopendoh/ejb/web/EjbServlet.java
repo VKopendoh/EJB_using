@@ -4,7 +4,6 @@ import com.vkopendoh.ejb.business.CardMoneyTransaction;
 import com.vkopendoh.ejb.business.MoneyTransactionInterface;
 
 import javax.ejb.EJB;
-import javax.ejb.EJBs;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -18,6 +17,7 @@ public class EjbServlet extends HttpServlet {
 
     @EJB
     CardMoneyTransaction transaction2;
+
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
     }
